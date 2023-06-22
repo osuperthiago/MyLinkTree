@@ -1,6 +1,6 @@
 body {
     background-color: aliceblue;
-    font-family: 'Jost', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .container {
@@ -51,7 +51,14 @@ body {
     
   }
   
-
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
 
   .w3-theme-d3 {
     background-color: rgba(42, 169, 219, 0.6) !important;
@@ -64,27 +71,16 @@ body {
     background-color: rgba(42, 169, 219, 0.8) !important;
   }
   
-  a {
+  .links-container a {
     font-size: x-large;
+    color: white;
   }
   
   .w3-border {
     border: 3px solid #ccc !important;
   }
   
-  #titulo {
-    color: plum;
-    align-items: center;
-  }
-  
-  .links-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
+
   
   .w3-button {
     display: flex;
@@ -97,14 +93,13 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     white-space: break-spaces;
+    
   }
   
   .links-container a {
     width: 80%;
   }
-  
-
-  
+    
   .submit a{
     display: flex;
     flex-direction: column;
@@ -116,48 +111,8 @@ body {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 40px;
-  
-  }
-  
-  .submit p{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-  
-  
-  }
-  
-  
-  .subscribe {
-    font-size: 15px;
-  }
-  
-  .submit form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .submit form button {
-    margin-top: 5px;
-    background-color: rgba(27, 122, 159, 0.9) !important;
-    color: #fff !important;
-  }
-  
-  .submit form button:hover {
-    background-color: rgba(15, 67, 87, 0.9) !important;
-    color: #fff !important;
-  }
-  .submit form input {
-    width: 100% !important;
-  }
-  .submit form input::placeholder {
-    color: #fff;
+    font-size: x-large;
+    color: #1b7a9f;
   }
   
   .icons-w3-padding {
@@ -172,8 +127,7 @@ body {
     margin-bottom: 15px;
   }
   
-  
-  
+    
   .icons {
     display: flex;
     gap: 50px;
@@ -183,16 +137,10 @@ body {
     text-decoration: none;
   }
   
-  
   .icons-w3-padding a svg {
     fill: #d0ecf7;
     transform: scale(1.5);
-  }
-  
-  
-  .icons a svg {
-    fill: #d0ecf7;
-    transform: scale(1.5);
+    color: #1b7a9f;
   }
   
    
